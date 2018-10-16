@@ -11,6 +11,7 @@ Settings:
     dtparam=audio=on
     enable_uart=0
     
+    
     lcd_rotate=2
     disable_touchscreen=1
     
@@ -24,7 +25,6 @@ Settings:
     
     #GPIO4 Quit/Reset Metering
     dtoverlay=gpio-key,gpio=4,keycode=16,label="KEY_Q",gpio_pull=up
-    
     
     #GPIO17 Toogle screen
     dtoverlay=gpio-key,gpio=17,keycode=17,label="KEY_W",gpio_pull=up
