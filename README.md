@@ -1,6 +1,8 @@
 # x32loudness
 An EBU R128 loudness meter display for Behringer X32 audio mixing console
 
+![](https://raw.githubusercontent.com/premultiply/x32loudness/master/example.jpg)
+
 System requierements:
 Raspbian Jessie
 
