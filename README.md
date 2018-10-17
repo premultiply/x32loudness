@@ -3,16 +3,24 @@ An realtime EBU R128 loudness meter display for Behringer X32 audio mixing conso
 
 ![](https://raw.githubusercontent.com/premultiply/x32loudness/master/example.jpg)
 
+
+
 System requierements:
-Raspberry Pi 3
-Raspbian Jessie
+
+- Raspberry Pi 3
+- Raspbian Jessie
+
+
 
 Options:
-Raspberry LCD Touchscreen & Case
-Footswitch or other GPIO-Buttons
+
+* Raspberry LCD Touchscreen & Case
+* Footswitch or other GPIO-Buttons
+
 
 
 Settings:
+
 /boot/config.txt:
 
     dtparam=audio=on
@@ -37,11 +45,13 @@ Settings:
     
     #GPIO25 Pause/Still/Freeze Button/Footswitch
     dtoverlay=gpio-key,gpio=25,keycode=25,label="KEY_P",gpio_pull=up
+    
 
 
 /etc/apt/sources.list:
 
     deb ftp://ftp.deb-multimedia.org jessie main
+
 
 
 Prepare:
